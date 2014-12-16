@@ -1,0 +1,5 @@
+Pretty much all my dists use dzil, which produces slightly verbose but otherwise decent Build.PLs
+Such as this one: https://metacpan.org/source/LEONT/File-Map-0.63/Build.PL
+See Module::Runtime for a slightly simpler example
+
+You want a subclass of Module::Build that overrides ACTION_code and ACTION_distdir to do your things
