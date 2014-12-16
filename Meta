@@ -24,4 +24,4 @@ devel:
 requires:
   perl: 5.8.1
   Inline::Module: 0
-  Module::build: 0
+  Module::Build: 0
