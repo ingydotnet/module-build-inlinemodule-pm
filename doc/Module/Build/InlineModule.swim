@@ -1,0 +1,33 @@
+Module::Build::InlineModule
+=============================
+
+Module::Build Support for Inline::Module
+
+= Synopsis
+
+  use Module::Build;
+
+  # yoyoyo
+
+= Description
+
+Wow!
+
+= See
+
+* [Inline::Module]
+* [Module::Build]
+* [Alt::Acme::Math::XS::ModuleBuild]
+
+= Author
+
+Ingy döt Net <ingy@cpan.org>
+
+= Copyright
+
+Copyright 2014. Ingy döt Net.
+
+This program is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
