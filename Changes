@@ -1,4 +1,11 @@
 ---
+version: 0.02
+date:    Wed Dec 17 15:06:29 PST 2014
+changes:
+- First working version
+- Handles Inline compilation and distdir
+- autostub not working
+---
 version: 0.01
 date:    Mon Dec 15 22:48:52 EST 2014
 changes:
