@@ -6,15 +6,17 @@ __PACKAGE__->add_property('inline');
 
 use Inline::Module();
 
-use XXX;
+    use XXX;
 
 sub ACTION_code {
-    my ($self) = @_;
+    my $self = shift;
+    $self->SUPER::ACTION_code(@_);
     my $module = $self->{properties}{inline}{module};
     print "$module\n";
     my @inc = @INC;
     local @INC = ('lib', @inc);
     eval "require $module; 1" or die $@;
+    Inline::Module->handle_fixblib;
 }
 
 sub ACTION_distdir {
