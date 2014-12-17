@@ -11,7 +11,10 @@ use XXX;
 sub ACTION_code {
     my ($self) = @_;
     my $module = $self->{properties}{inline}{module};
-    eval "require $module; 1" or die @_;
+    print "$module\n";
+    my @inc = @INC;
+    local @INC = ('lib', @inc);
+    eval "require $module; 1" or die $@;
 }
 
 sub ACTION_distdir {
