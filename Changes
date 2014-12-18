@@ -1,4 +1,9 @@
 ---
+version: 0.03
+date:    Thu Dec 18 11:15:52 PST 2014
+changes:
+- Refactor common logic into Inline::Module
+---
 version: 0.02
 date:    Wed Dec 17 15:06:29 PST 2014
 changes:

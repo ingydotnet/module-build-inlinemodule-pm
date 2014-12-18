@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Module-Build-InlineModule
-version: 0.02
+version: 0.03
 abstract: Module::Build Support for Inline::Module
 homepage: https://metacpan.org/release/Module-Build-InlineModule
 language: perl
@@ -23,5 +23,5 @@ devel:
 
 requires:
   perl: 5.8.1
-  Inline::Module: 0
+  Inline::Module: 0.25
   Module::Build: 0
