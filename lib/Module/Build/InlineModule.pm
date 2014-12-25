@@ -1,6 +1,6 @@
 use strict; use warnings;
 package Module::Build::InlineModule;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use base 'Module::Build';
 __PACKAGE__->add_property('inline');
